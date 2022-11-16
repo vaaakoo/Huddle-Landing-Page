@@ -533,12 +533,30 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
 .max-w-\[130px\] {
   max-width: 130px;
 }
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
 }
 
 .bg-Violet {
@@ -549,6 +567,10 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-9 {
@@ -632,6 +654,11 @@ video {
   transition-duration: 150ms;
 }
 
+.hover\:border-SoftMagenta:hover {
+  --tw-border-opacity: 1;
+  border-color: hsl(300 69% 71% / var(--tw-border-opacity));
+}
+
 .hover\:bg-SoftMagenta:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(300 69% 71% / var(--tw-bg-opacity));
@@ -640,6 +667,11 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-SoftMagenta:hover {
+  --tw-text-opacity: 1;
+  color: hsl(300 69% 71% / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
@@ -663,6 +695,10 @@ video {
   .md\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .md\:flex {
@@ -696,6 +732,10 @@ video {
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-right {
+    text-align: right;
   }
 
   .md\:text-5xl {
